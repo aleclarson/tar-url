@@ -1,4 +1,4 @@
-# tar-url v0.0.1
+# tar-url v0.0.2
 
 Resolve the `.tgz` url for a remote package.
 
