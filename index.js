@@ -14,7 +14,8 @@ async function tarUrl(name, range = '*') {
   }
   let versions = Object.keys(pack.versions)
   let version = semver.maxSatisfying(versions, range)
-  return `${url}/-/${name}-${version}.tgz`
+  if (version) return `${url}/-/${name}-${version}.tgz`
+  return null
 }
 
 module.exports = tarUrl
