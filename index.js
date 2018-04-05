@@ -12,7 +12,7 @@ async function tarUrl(name, range = '*') {
   if (!pack) {
     throw Error('Unknown package: ' + url)
   }
-  let versions = pack['dist-tags'].filter(semver.valid)
+  let versions = Object.keys(pack.versions)
   let version = semver.maxSatisfying(versions, range)
   return `${url}/-/${name}-${version}.tgz`
 }
