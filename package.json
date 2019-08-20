@@ -3,7 +3,7 @@
   "version": "0.0.3",
   "dependencies": {
     "quest": "aleclarson/quest#0.8.1",
-    "registry-auth-token": "^3.3.2",
-    "semver": "^5.5.0"
+    "registry-auth-token": "3.4.0",
+    "semver": "5.7.1"
   }
 }
