@@ -2,7 +2,7 @@
   "name": "tar-url",
   "version": "0.1.0",
   "dependencies": {
-    "quest": "aleclarson/quest#0.8.1",
+    "quest": "aleclarson/quest#0.9.0",
     "registry-auth-token": "^3.3.2",
     "semver": "^5.5.0"
   }
